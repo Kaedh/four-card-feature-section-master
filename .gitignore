@@ -2,7 +2,6 @@
 
 # dependencies
 /node_modules
-/apagardepois
 /.pnp
 .pnp.js
 

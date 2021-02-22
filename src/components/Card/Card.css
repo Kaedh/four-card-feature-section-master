@@ -1,0 +1,50 @@
+.card {
+    margin: 15px 0;
+    display: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 325px;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 7px 25px var( --grayish-blue);
+}
+
+.red { background-color: var(--red); }
+
+.cyan { background-color: var(--cyan); }
+
+.orange { background-color: var(--orange); }
+
+.blue { background-color: var(--blue); }
+
+.top {
+    width: 100%;
+    height: 2%;
+    border-radius: 15px 15px  0 0;
+}
+
+.card h1 {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 30%;    
+    font-size: 22px;
+    color: var(--very-dark-blue);
+}
+
+.card span {
+    width: 80%;
+    height: 30%;
+    font-size: 14px;
+    color: var(--grayish-blue);
+}
+
+.card img {
+    margin-right: 10%;
+    margin-left: auto;    
+    width: 75px;
+    height: 30%;
+    height: 75px;
+}
